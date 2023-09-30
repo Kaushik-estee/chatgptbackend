@@ -6,7 +6,7 @@ const carRouter = require('./routes/cars');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT =  8080;
 
 // Middleware
 app.use(cors());
